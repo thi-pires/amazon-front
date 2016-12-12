@@ -1,0 +1,1122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Amazon</title>
+    
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+     <link href="css/slick.css" rel="stylesheet">
+     <link href="css/slick-theme.css" rel="stylesheet">
+    <link href="css/estilo.css" rel="stylesheet">
+
+
+
+   
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+        <header> 
+          <div class="container">
+              <div class="row"><!--MENU TOPO-->
+                <div class="topo-left col-md-6">
+                  <ul class="lista-topo">
+                    <li><a href="#">Sua Amazon.com.br</a></li>
+                    <li><a href="#">Ofertas do dia</a></li>
+                    <li><a href="#">Ajuda</a></li>
+                  </ul>
+                </div>
+
+                <div class="botoes-login text-right col-md-6">
+                  <button type="button" class="btn-cadastro">Cadastre-se</button>
+                  <button type="button" class="btn-login">Faça seu login</button>
+                </div>
+              </div><!--FIM MENU TOPO-->
+
+              <div class="row"><!--PARTE LOGO AMAZON E CARRINHO-->
+                <div class="col-md-4"></div>
+
+                <div class="logo-amazon col-md-4"><!--LOGO AMAZON-->
+                  <img src="img/amazon-logo.png" alt="Logo Amazon">
+                </div><!--fim LOGO AMAZON-->
+
+                <div class="col-md-4 carrinho-desejo"><!--LISTA CARRINHO E DESEJO-->
+
+                  <div class="lista-desejo col-md-6"><!--LISTA DESEJO-->
+                    <div class="icone-coracao">
+                      <div class="bola-desejo">
+                        <span>5</span>
+                      </div>
+                      <img src="img/coracao.png" alt="Lista desejo">
+                    </div>
+                      <ul class="nav navbar-nav">
+                        <li class="dropdown"><a href="#" class="dropdown-toggle hover-list" data-toggle="dropdown">Sua lista de desejos <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">Crie uma lista de desejos</a></li>
+                            <li><a href="#">Ache uma lista</a></li>
+                            <li><a href="#">Inclua produtos de qualquer website</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                  </div><!--FIM LISTA DESEJO-->
+
+                  <div class="lista-carrinho col-md-6"><!--LISTA DESEJO-->
+                    <div class="icone-carrinho">
+                      <div class="bola-carrinho">
+                        <span>10</span>
+                      </div>
+                      <img src="img/carrinho.png" alt="Carrinho de compras">
+                    </div>
+                      <ul class="nav navbar-nav">
+                        <li class="dropdown"><a href="#" class="dropdown-toggle hover-list" data-toggle="dropdown">Seu carrinho <span class="caret"></span></a>
+                          <ul class="dropdown-menu">
+                            <li><a href="#">Meu carrinho</a></li>
+                            <li><a href="#">Histórico de produtos</a></li>
+                            <li><a href="#">Acompanhe seu pedido</a></li>
+                          </ul>
+                        </li>
+                      </ul>
+                  </div><!--FIM LISTA DESEJO-->
+                </div><!--FIM LISTA CARRINHO E DESEJO-->
+              </div><!-- FIM PARTE LOGO AMAZON E CARRINHO-->
+
+              <div class="row"><!--MEMU PRINCIPAL-->
+                <div class="lista-menu-principal">
+                  <nav class="menu-principal">
+                    <ul>
+                      <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Livros<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">Todos os livros</a></li>
+                          <li><a href="#">Mais vendidos</a></li>
+                          <li><a href="#">Livros em ofertas</a></li>
+                          <li><a href="#">Inglês e Outras línguas</a></li>
+                          <br><br>
+                          <li><a href="#">Literatura e ficção</a></li>
+                          <li><a href="#">Autoajuda</a></li>
+                          <li><a href="#">Romances</a></li>
+                          <li><a href="#">HQs e Mnagás</a></li>
+                          <li><a href="#">Novidades em livros</a></li>
+                          <br><br>
+                          <li><a href="#">App Amazon shopping</a></li>
+                          <li><a href="#">Kindle Unlimited</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Ebooks Kindle<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">Todos os eBooks</a></li>
+                          <li><a href="#">Mais vendidos</a></li>
+                          <li><a href="#">Promoções Kindle</a></li>
+                          <li><a href="#">Volta às aulas</a></li>
+                          <br><br>
+                          <li><a href="#">Literatura e ficção</a></li>
+                          <li><a href="#">Autoajuda</a></li>
+                          <li><a href="#">Romances</a></li>
+                          <li><a href="#">Novidades em eBooks</a></li>                    
+                          <br><br>                  
+                          <li><a href="#">Kindle Unlimited</a></li>
+                          <li><a href="#">Receba ofertas em seu email</a></li>
+                          <li><a href="#">eBooks gratuitos</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Kindle Unlimited<span class="caret"></span></a>
+                         <ul class="dropdown-menu">
+                          <li><a href="#">Teste de graça por 30 dias</a></li>
+                          <li><a href="#">Veja como participar</a></li>
+                          <li><a href="#">Veja todos os eBooks para ler</a></li>
+                          <li><a href="#">eBooks em inglês</a></li>
+                          <br><br>
+                          <li><a href="#">Administração e negócios</a></li>
+                          <li><a href="#">Autoajuda</a></li>
+                          <li><a href="#">Biografias</a></li>
+                          <li><a href="#">Literatura e ficção</a></li> 
+                          <li><a href="#">Romances</a></li>
+                         </ul>
+                      </li>
+
+                      <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Dispositivos Kindle<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">Novo Kindles <span class="subtitle">Pequeno,leve e perfeito para leitura</span></a></li>
+                          <li><a href="#">Kindle paperwhite<span class="subtitle">Agora ainda melhor</span></a></li>
+                          <li><a href="#">Kindle Voyage<span class="subtitle">Criado para quem ama ler</span></a></li>
+                          <li><a href="#">Descubra o Kindle Oasis<span class="subtitle">Design repensado, extramamente ergonômico</span></a></li>
+                          <li><a href="#">Acessórios Kindle</a></li>
+                        </ul>
+                      </li>
+                      <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">App Kindle<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">Baixe o aplicativo Kindle</a></li>
+                          <li><a href="#">Kindle Cloud Reader</a></li>
+                          <li><a href="#">Todos os eBooks</a></li>
+                          <li><a href="#">Promoções Kindle</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Publique seu livro<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">Publique agora seu livro</a></li>
+                          <li><a href="#">Historias de sucesso</a></li>
+                          <li><a href="#">Ajuda</a></li>
+                        </ul>
+                      </li>
+
+                      <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Amazon app store<span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">Seu Amazon drive</a></li>                    
+                        </ul>
+                      </li>
+                    </ul> 
+                  </nav>
+                </div>
+              </div><!--FIM MEMU PRINCIPAL-->
+           </div><!--fIM CONTAINER-->
+        </header>
+
+        <section id="busca-produtos">
+          <div class="container">
+            <div class="row">
+              <div class="busca">
+                <form class="form-group form-relativo" method="GET" role="search" accept-charset="utf-8"><!--Imput busca-->
+                  <input type="search" name="busca"  placeholder="Digite o que procura ..." class="form-control form-busca" autocomplete="on">
+                  <span class="img-busca"><img src="img/busca.png"></span>
+                </form><!--Fim Input busca-->
+
+                <div class="btn-select"><!-- Select busca-->
+                  <select>
+                    <optgroup>
+                      <option>Todos</option>
+                      <option>Apps e jogos</option>
+                      <option>Livros</option>
+                      <option>Kindle</option>
+                    </optgroup>
+                  </select>
+                </div><!--Fim Input busca-->
+
+                <div class="btn-submit">
+                  <button type="submit">Buscar</button>
+                </div>
+
+              </div><!--fIM Busca-->
+            </div><!--fIM row-->
+          </div><!--fIM CONTAINER-->
+        </section>
+
+        <section id="carrosel-banners"><!--Banners -->
+          <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+              <div class="item active">
+                <img src="img/banner-1.jpg" alt="Promo-1">           
+              </div>
+              <div class="item">
+                <img src="img/banner-2.gif" alt="Promo-2">
+              </div>
+              <div class="item">
+                <img src="img/banner-3.jpg" alt="Promo-3">
+              </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+              <span class="setas" aria-hidden="true"><img src="img/seta-left.png" class="img-responsive"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+              <span  class="setas" aria-hidden="true"><img src="img/seta-right.png" class="img-responsive"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </section><!--Fim Banners -->
+
+        <section id="aba-oferta"><!--Ofertas do dia-->
+          <div class="container"><!--Container-->
+            <div class="row grupo-ofertas"><!--Grupo ofertas-->
+              <div class="title-oferta">
+                <h3>Ofertas do dia</h3>
+              </div>
+
+                <div id="carousel-ofertas" class="carousel slide" data-ride="carousel">
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                  <div class="item active">
+                    <div class="col-md-4 oferta-1"><!--==========================Oferta 1=============-->
+                        <div class="tag-desconto"><!--tag-oferta-->
+                          <span class="numero-tag">46%</span>
+                        </div><!--fim tag-oferta-->
+
+                        <div class="imagem-livro-1 img-responsive"></div><!--fim Imagem livro-->
+
+                        <div class="align-texto-icone"><!--Titulo livro e coração desejo-->
+                         <div class="title-livro">
+                            <h4>Scrum. A arte de fazer o<br> trabalho na metade do tempo</h4>
+                            <small>Mario Sérgio Cortella</small>
+                         </div>
+
+                         <div class="coracao-vazio"></div>
+                      
+                        </div><!-- FIM Titulo livro e coração desejo-->
+
+                         <div class="row precos-livros"><!--Inicio row-->                     
+                           <div class="col-md-6 preco"><!--Precos-->
+                             <span class="preco-de">De: R$ 34,90</span>
+                             <span class="preco-por">R$ 18,90</span>
+                           </div><!--Fim precos-->
+
+                           <div class="col-md-6 estrelas-avaliacao"><!--Avaliacao-->
+                             <img src="img/estrelas.png" alt="estrelas avaliação" class="estrelas img-responsive">
+                             <small class="numero-avaliacao">(307)</small>
+                           </div><!--Fim Avaliacao-->
+                         </div><!--fim row-->
+
+                         <div class="row"><!--Barra progressão-->
+                          <div class="progress barra-progress">
+                            <div class="progress-bar progress-line" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">60%</div>
+                          </div>
+
+                          <div class="legendas-barra">
+                            <div class="col-md-5 text-left">
+                              <span class="legenda-porcento">65% comprados</span>
+                            </div>
+
+                            <div class="col-md-7 text-right">
+                              <span class="timer-porcento">Termina em 16:24</span>
+                            </div>
+                          </div>
+                         </div><!--Fim progressao-->
+
+                         <div class="row btn-add-carrinho"><!--btao carrinho-->
+                           <button type="button"><img src="img/car-branco.png" alt="icone-carrinho" class="car-branco">Adicionar ao carrinho</button>
+                         </div><!--fim btao carrinho-->
+                      </div><!--==============================================Fim Oferta 1-->
+                      <div class="col-md-4 oferta-1"><!--==========================Oferta 2=============-->
+                      <div class="tag-desconto"><!--tag-oferta-->
+                        <span class="numero-tag">60%</span>
+                      </div><!--fim tag-oferta-->
+                      <div class="imagem-livro-2 img-responsive"></div><!--fim Imagem livro-->
+                     <div class="align-texto-icone"><!--Titulo livro e coração desejo-->
+                       <div class="title-livro">
+                          <h4>A Bibliotecária de Auschwitz - Vol:1</h4>
+                          <small>Mario Sérgio Cortella</small>
+                        </div>
+                        <div class="coracao-vazio"></div>
+                        
+                     </div><!-- FIM Titulo livro e coração desejo-->
+                     <div class="row precos-livros"><!--Inicio row-->
+                       <div class="col-md-6 preco"><!--Precos-->
+                         <span class="preco-de">De: R$ 42,50</span>
+                         <span class="preco-por">R$ 18,90</span>
+                       </div><!--Fim precos-->
+                       <div class="col-md-6 estrelas-avaliacao"><!--Avaliacao-->
+                         <img src="img/estrelas.png" alt="estrelas avaliação" class="estrelas img-responsive">
+                         <small class="numero-avaliacao">(307)</small>
+                       </div><!--Fim Avaliacao-->
+                     </div><!--fim row-->
+                     <div class="row"><!--Barra progressão-->
+                          <div class="progress barra-progress">
+                            <div class="progress-bar progress-line" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">60%</div>
+                          </div>
+                          <div class="legendas-barra">
+                            <div class="col-md-5 text-left">
+                              <span class="legenda-porcento">65% comprados</span>
+                            </div>
+                            <div class="col-md-7 text-right">
+                              <span class="timer-porcento">Termina em 16:24</span>
+                            </div>
+                          </div>
+                     </div><!--Fim progressao-->
+                     <div class="row btn-add-carrinho"><!--btao carrinho-->
+                       <button type="button"><img src="img/car-branco.png" alt="icone-carrinho" class="car-branco">Adicionar ao carrinho</button>
+                     </div><!--fim btao carrinho-->
+                  </div><!--==============================================Fim Oferta 2-->
+                  <div class="col-md-4 oferta-1"><!--==========================Oferta 3=============-->
+                      <div class="tag-desconto"><!--tag-oferta-->
+                        <span class="numero-tag">30%</span>
+                      </div><!--fim tag-oferta-->
+                      <div class="imagem-livro-3 img-responsive"></div><!--fim Imagem livro-->
+                     <div class="align-texto-icone"><!--Titulo livro e coração desejo-->
+                       <div class="title-livro">
+                          <h4>Por que fazemos o que fazemos</h4>
+                          <small>Mario Sérgio Cortella</small>
+                        </div>
+                        <div class="coracao-vazio"></div>
+                      
+                     </div><!-- FIM Titulo livro e coração desejo-->
+                     <div class="row precos-livros"><!--Inicio row-->
+                       <div class="col-md-6 preco"><!--Precos-->
+                         <span class="preco-de">De: R$ 25,90</span>
+                         <span class="preco-por">R$ 18,90</span>
+                       </div><!--Fim precos-->
+                       <div class="col-md-6 estrelas-avaliacao"><!--Avaliacao-->
+                         <img src="img/estrelas.png" alt="estrelas avaliação" class="estrelas img-responsive">
+                         <small class="numero-avaliacao">(307)</small>
+                       </div><!--Fim Avaliacao-->
+                     </div><!--fim row-->
+                     <div class="row"><!--Barra progressão-->
+                          <div class="progress barra-progress">
+                            <div class="progress-bar progress-line" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">60%</div>
+                          </div>
+                          <div class="legendas-barra">
+                            <div class="col-md-5 text-left">
+                              <span class="legenda-porcento">65% comprados</span>
+                            </div>
+                            <div class="col-md-7 text-right">
+                              <span class="timer-porcento">Termina em 16:24</span>
+                            </div>
+                          </div>
+                     </div><!--Fim progressao-->
+                     <div class="row btn-add-carrinho"><!--btao carrinho-->
+                       <button type="button"><img src="img/car-branco.png" alt="icone-carrinho" class="car-branco">Adicionar ao carrinho</button>
+                     </div><!--fim btao carrinho-->
+                  </div><!--==============================================Fim Oferta 3-->
+                 </div><!--fim item-1-->
+                 <div class="item"><!--item 2-->
+                   <div class="col-md-4 oferta-1"><!--==========================Oferta 1=============-->
+                      <div class="tag-desconto"><!--tag-oferta-->
+                        <span class="numero-tag">46%</span>
+                      </div><!--fim tag-oferta-->
+
+                      <div class="imagem-livro-1 img-responsive"></div><!--fim Imagem livro-->
+
+                      <div class="align-texto-icone"><!--Titulo livro e coração desejo-->
+                       <div class="title-livro">
+                          <h4>Scrum. A arte de fazer o<br> trabalho na metade do tempo</h4>
+                          <small>Mario Sérgio Cortella</small>
+                       </div>
+
+                       <div class="coracao-vazio"></div>
+                      
+                        </div><!-- FIM Titulo livro e coração desejo-->
+                         <div class="row precos-livros"><!--Inicio row-->                     
+                           <div class="col-md-6 preco"><!--Precos-->
+                             <span class="preco-de">De: R$ 34,90</span>
+                             <span class="preco-por">R$ 18,90</span>
+                           </div><!--Fim precos-->
+
+                           <div class="col-md-6 estrelas-avaliacao"><!--Avaliacao-->
+                             <img src="img/estrelas.png" alt="estrelas avaliação" class="estrelas img-responsive">
+                             <small class="numero-avaliacao">(307)</small>
+                           </div><!--Fim Avaliacao-->
+                         </div><!--fim row-->
+
+                         <div class="row"><!--Barra progressão-->
+                          <div class="progress barra-progress">
+                            <div class="progress-bar progress-line" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">60%</div>
+                          </div>
+
+                          <div class="legendas-barra">
+                            <div class="col-md-5 text-left">
+                              <span class="legenda-porcento">65% comprados</span>
+                            </div>
+
+                            <div class="col-md-7 text-right">
+                              <span class="timer-porcento">Termina em 16:24</span>
+                            </div>
+                          </div>
+                         </div><!--Fim progressao-->
+
+                         <div class="row btn-add-carrinho"><!--btao carrinho-->
+                           <button type="button"><img src="img/car-branco.png" alt="icone-carrinho" class="car-branco">Adicionar ao carrinho</button>
+                         </div><!--fim btao carrinho-->
+                      </div><!--==============================================Fim Oferta 1-->
+                      <div class="col-md-4 oferta-1"><!--==========================Oferta 2=============-->
+                      <div class="tag-desconto"><!--tag-oferta-->
+                        <span class="numero-tag">60%</span>
+                      </div><!--fim tag-oferta-->
+                      <div class="imagem-livro-2 img-responsive"></div><!--fim Imagem livro-->
+                     <div class="align-texto-icone"><!--Titulo livro e coração desejo-->
+                       <div class="title-livro">
+                          <h4>A Bibliotecária de Auschwitz - Vol:1</h4>
+                          <small>Mario Sérgio Cortella</small>
+                        </div>
+                        <div class="coracao-vazio"></div>
+                        
+                     </div><!-- FIM Titulo livro e coração desejo-->
+                     <div class="row precos-livros"><!--Inicio row-->
+                       <div class="col-md-6 preco"><!--Precos-->
+                         <span class="preco-de">De: R$ 42,50</span>
+                         <span class="preco-por">R$ 18,90</span>
+                       </div><!--Fim precos-->
+                       <div class="col-md-6 estrelas-avaliacao"><!--Avaliacao-->
+                         <img src="img/estrelas.png" alt="estrelas avaliação" class="estrelas img-responsive">
+                         <small class="numero-avaliacao">(307)</small>
+                       </div><!--Fim Avaliacao-->
+                     </div><!--fim row-->
+                     <div class="row"><!--Barra progressão-->
+                          <div class="progress barra-progress">
+                            <div class="progress-bar progress-line" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">60%</div>
+                          </div>
+                          <div class="legendas-barra">
+                            <div class="col-md-5 text-left">
+                              <span class="legenda-porcento">65% comprados</span>
+                            </div>
+                            <div class="col-md-7 text-right">
+                              <span class="timer-porcento">Termina em 16:24</span>
+                            </div>
+                          </div>
+                     </div><!--Fim progressao-->
+                     <div class="row btn-add-carrinho"><!--btao carrinho-->
+                       <button type="button"><img src="img/car-branco.png" alt="icone-carrinho" class="car-branco">Adicionar ao carrinho</button>
+                     </div><!--fim btao carrinho-->
+                  </div><!--==============================================Fim Oferta 2-->
+                  <div class="col-md-4 oferta-1"><!--==========================Oferta 3=============-->
+                      <div class="tag-desconto"><!--tag-oferta-->
+                        <span class="numero-tag">30%</span>
+                      </div><!--fim tag-oferta-->
+                      <div class="imagem-livro-3 img-responsive"></div><!--fim Imagem livro-->
+                     <div class="align-texto-icone"><!--Titulo livro e coração desejo-->
+                       <div class="title-livro">
+                          <h4>Por que fazemos o que fazemos</h4>
+                          <small>Mario Sérgio Cortella</small>
+                        </div>
+                        <div class="coracao-vazio"></div>
+                       
+                     </div><!-- FIM Titulo livro e coração desejo-->
+                     <div class="row precos-livros"><!--Inicio row-->
+                       <div class="col-md-6 preco"><!--Precos-->
+                         <span class="preco-de">De: R$ 25,90</span>
+                         <span class="preco-por">R$ 18,90</span>
+                       </div><!--Fim precos-->
+                       <div class="col-md-6 estrelas-avaliacao"><!--Avaliacao-->
+                         <img src="img/estrelas.png" alt="estrelas avaliação" class="estrelas img-responsive">
+                         <small class="numero-avaliacao">(307)</small>
+                       </div><!--Fim Avaliacao-->
+                     </div><!--fim row-->
+                     <div class="row"><!--Barra progressão-->
+                          <div class="progress barra-progress">
+                            <div class="progress-bar progress-line" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">60%</div>
+                          </div>
+                          <div class="legendas-barra">
+                            <div class="col-md-5 text-left">
+                              <span class="legenda-porcento">65% comprados</span>
+                            </div>
+                            <div class="col-md-7 text-right">
+                              <span class="timer-porcento">Termina em 16:24</span>
+                            </div>
+                          </div>
+                     </div><!--Fim progressao-->
+                     <div class="row btn-add-carrinho"><!--btao carrinho-->
+                       <button type="button"><img src="img/car-branco.png" alt="icone-carrinho" class="car-branco">Adicionar ao carrinho</button>
+                     </div><!--fim btao carrinho-->
+                  </div><!--==============================================Fim Oferta 3-->
+                  </div><!--fim item 2-->
+                </div>
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-ofertas" role="button" data-slide="prev">
+                  <span class="setas-azul-left" aria-hidden="true"><img src="img/seta-azul-left.png"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#carousel-ofertas" role="button" data-slide="next">
+                  <span  class="setas-azul-right" aria-hidden="true"><img src="img/seta-azul-right.png"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>  
+              <div class="btn-todas-ofertas">
+                <button type="button" class="btn-ver-todas">Ver todas as ofertas</button>
+              </div>
+            </div><!--Grupo ofertas-->
+          </div><!--Fim Container-->
+        </section><!--Fim Ofertas do dia-->
+
+
+        <section id="vendido-procurados"> <!--Mais vendidos e mais procurados-->
+          <div class="container"><!--Container-->
+            <div class="col-md-7"><!-- Inicio abas -->
+              <!-- Nav tabs -->
+              <ul class="nav nav-tabs" role="tablist">
+                <li role="presentation" class="active"><a href="#mais-vendidos" aria-controls="home" role="tab" data-toggle="tab">Mais vendidos</a></li>
+                <li role="presentation"><div class="divisoria"></div></li>
+                <li role="presentation"><a href="#mais-procurados" aria-controls="profile" role="tab" data-toggle="tab">Mais procurados</a></li>
+              </ul> <!-- Fim Nav tabs -->
+            </div><!-- Fim abas -->
+
+              <div class="busca-categorias col-md-5"><!-- Select categorais -->
+              <div class="form-categorias">
+                <form>
+                  <label id="categorias" for="#select-categoria">Selecione a categoria</label>
+                  <select name="categorias" id="select-categoria">
+                    <optgroup>
+                      <option>Mais vendidos em livros</option>
+                      <option>Mais vendidos em Literatura e ficção</option>
+                      <option>Mais vendidos em Infantis e infanto-juvenis</option>
+                      <option>Mais vendidos em  Negócios e economia</option>
+                      <option>Mais vendidos em  Biografias e Histórias Reais</option>
+                      <option>Mais vendidos em Romance</option>
+                      <option>Mais vendidos em Autoajuda e desenvolvimento pessoal</option>
+                      <option>Mais vendidos em Turismo</option>
+                      <option>Mais vendidos em Esportes</option>
+                    </optgroup>
+                  </select>
+                </form>
+              </div>
+            </div><!-- Fim select categorias -->
+
+              <!-- Tab panes -->
+              <div class="tab-content">
+                <div role="tabpanel" class="tab-pane active" id="mais-vendidos">
+                  <div id="carousel-mais-vendidos" class="carousel slide" data-ride="carousel">
+                      <!-- Wrapper for slides -->
+                      <div class="carousel-inner" role="listbox">
+                        <div class="item active item-align"><!-- Lista 01 -->
+
+                          <div class="produto-1"> <!--Produto 1-->
+                            <div class="livro-prod-1 img-responsive"></div><!--Imagem livro-->
+                            <div class="title-livros-mais-vendidos"><!--Titulo-->
+                              <h4>Talking as fast as I can</h4>
+                              <small>Lauren Graham</small>
+                            </div><!--Fim titulo-->
+                            <div class="estrelas"><!--Estrelas rank-->
+                              <img src="img/estrelas.png" alt="ranking avaliação" class="img-responsive estrelas-mais-vendidos">
+                              <small>307</small>
+                            </div><!--Fim estrelas rank-->
+                            <div class="coracao-vazio-2"></div><!--Coracao desejo-->
+                            <div class="preco-produto"><!--Preço produto-->
+                              <span>R$ 18,90</span>
+                            </div><!--Fim preço produto-->
+                            <div class="btn-produto-mais-vendidos">
+                              <button type="button" class="btn-veja-mais"><img src="img/car-branco.png" alt="icone-carrinho" class="car-branco-2">Adicionar ao carrinho</button>
+                            </div>
+                        </div> <!--Fim Produto 1-->
+
+                           <div class="produto-1"> <!--Produto 2-->
+                              <div class="livro-prod-2 img-responsive"></div><!--Imagem livro-->
+                              <div class="title-livros-mais-vendidos"><!--Titulo-->
+                                <h4>Filosofia para corajosos</h4>
+                                <small>Luis Felipe Pondé</small>
+                              </div><!--Fim titulo-->
+                              <div class="estrelas"><!--Estrelas rank-->
+                                <img src="img/estrelas.png" alt="ranking avaliação" class="img-responsive estrelas-mais-vendidos">
+                                <small>47</small>
+                              </div><!--Fim estrelas rank-->
+                              <div class="coracao-vazio-2"></div><!--Coracao desejo-->
+                              <div class="preco-produto"><!--Preço produto-->
+                                <span>R$ 25,90</span>
+                              </div><!--Fim preço produto-->
+                              <div class="btn-produto-mais-vendidos">
+                                <button type="button" class="btn-veja-mais"><img src="img/car-branco.png" alt="icone-carrinho" class="car-branco-2">Adicionar ao carrinho</button>
+                              </div>
+                           </div> <!--Fim Produto 2-->
+
+                           <div class="produto-1"> <!--Produto 3-->
+                              <div class="livro-prod-3 img-responsive"></div><!--Imagem livro-->
+                              <div class="title-livros-mais-vendidos"><!--Titulo-->
+                                <h4>O capital no século XXI</h4>
+                                <small>Thomas Piketty</small>
+                              </div><!--Fim titulo-->
+                              <div class="estrelas"><!--Estrelas rank-->
+                                <img src="img/estrelas.png" alt="ranking avaliação" class="img-responsive estrelas-mais-vendidos">
+                                <small>80</small>
+                              </div><!--Fim estrelas rank-->
+                              <div class="coracao-vazio-2"></div><!--Coracao desejo-->
+                              <div class="preco-produto"><!--Preço produto-->
+                                <span>R$ 32,50</span>
+                              </div><!--Fim preço produto-->
+                              <div class="btn-produto-mais-vendidos">
+                                <button type="button" class="btn-veja-mais"><img src="img/car-branco.png" alt="icone-carrinho" class="car-branco-2">Adicionar ao carrinho</button>
+                              </div>
+                           </div> <!--Fim Produto 3-->
+
+                           <div class="produto-1"> <!--Produto 4-->
+                              <div class="livro-prod-4 img-responsive"></div><!--Imagem livro-->
+                              <div class="title-livros-mais-vendidos"><!--Titulo-->
+                                <h4>Arnold Schwarzenegger</h4>
+                                <small>Arnold Schwarzenegger</small>
+                              </div><!--Fim titulo-->
+                              <div class="estrelas"><!--Estrelas rank-->
+                                <img src="img/estrelas.png" alt="ranking avaliação" class="img-responsive estrelas-mais-vendidos">
+                                <small>20</small>
+                              </div><!--Fim estrelas rank-->
+                              <div class="coracao-vazio-2"></div><!--Coracao desejo-->
+                              <div class="preco-produto"><!--Preço produto-->
+                                <span>R$ 44,00</span>
+                              </div><!--Fim preço produto-->
+                              <div class="btn-produto-mais-vendidos">
+                                <button type="button" class="btn-veja-mais"><img src="img/car-branco.png" alt="icone-carrinho" class="car-branco-2">Adicionar ao carrinho</button>
+                              </div>
+                           </div> <!--Fim Produto 4-->
+
+                           <div class="produto-1"> <!--Produto 5-->
+                              <div class="livro-prod-5 img-responsive"></div><!--Imagem livro-->
+                              <div class="title-livros-mais-vendidos"><!--Titulo-->
+                                <h4>Os filhos de Húrin</h4>
+                                <small>J.R.R. Tolkien</small>
+                              </div><!--Fim titulo-->
+                              <div class="estrelas"><!--Estrelas rank-->
+                                <img src="img/estrelas.png" alt="ranking avaliação" class="img-responsive estrelas-mais-vendidos">
+                                <small>120</small>
+                              </div><!--Fim estrelas rank-->
+                              <div class="coracao-vazio-2"></div><!--Coracao desejo-->
+                              <div class="preco-produto"><!--Preço produto-->
+                                <span>R$ 15,50</span>
+                              </div><!--Fim preço produto-->
+                              <div class="btn-produto-mais-vendidos">
+                                <button type="button" class="btn-veja-mais"><img src="img/car-branco.png" alt="icone-carrinho" class="car-branco-2">Adicionar ao carrinho</button>
+                              </div>
+                           </div> <!--Fim Produto 5-->
+                          
+                        </div><!--fim lista 01-->
+
+                        <div class="item item-align"><!-- Lista 02 -->
+                        
+                          <div class="produto-1"> <!--Produto 1-->
+                            <div class="livro-prod-1 img-responsive"></div><!--Imagem livro-->
+                            <div class="title-livros-mais-vendidos"><!--Titulo-->
+                              <h4>Talking as fast as I can</h4>
+                              <small>Lauren Graham</small>
+                            </div><!--Fim titulo-->
+                            <div class="estrelas"><!--Estrelas rank-->
+                              <img src="img/estrelas.png" alt="ranking avaliação" class="img-responsive estrelas-mais-vendidos">
+                              <small>307</small>
+                            </div><!--Fim estrelas rank-->
+                            <div class="coracao-vazio-2"></div><!--Coracao desejo-->
+                            <div class="preco-produto"><!--Preço produto-->
+                              <span>R$ 18,90</span>
+                            </div><!--Fim preço produto-->
+                            <div class="btn-produto-mais-vendidos">
+                              <button type="button" class="btn-veja-mais"><img src="img/car-branco.png" alt="icone-carrinho" class="car-branco-2">Adicionar ao carrinho</button>
+                            </div>
+                        </div> <!--Fim Produto 1-->
+
+                           <div class="produto-1"> <!--Produto 2-->
+                              <div class="livro-prod-2 img-responsive"></div><!--Imagem livro-->
+                              <div class="title-livros-mais-vendidos"><!--Titulo-->
+                                <h4>Filosofia para corajosos</h4>
+                                <small>Luis Felipe Pondé</small>
+                              </div><!--Fim titulo-->
+                              <div class="estrelas"><!--Estrelas rank-->
+                                <img src="img/estrelas.png" alt="ranking avaliação" class="img-responsive estrelas-mais-vendidos">
+                                <small>47</small>
+                              </div><!--Fim estrelas rank-->
+                              <div class="coracao-vazio-2"></div><!--Coracao desejo-->
+                              <div class="preco-produto"><!--Preço produto-->
+                                <span>R$ 25,90</span>
+                              </div><!--Fim preço produto-->
+                              <div class="btn-produto-mais-vendidos">
+                                <button type="button" class="btn-veja-mais"><img src="img/car-branco.png" alt="icone-carrinho" class="car-branco-2">Adicionar ao carrinho</button>
+                              </div>
+                           </div> <!--Fim Produto 2-->
+
+                           <div class="produto-1"> <!--Produto 3-->
+                              <div class="livro-prod-3 img-responsive"></div><!--Imagem livro-->
+                              <div class="title-livros-mais-vendidos"><!--Titulo-->
+                                <h4>O capital no século XXI</h4>
+                                <small>Thomas Piketty</small>
+                              </div><!--Fim titulo-->
+                              <div class="estrelas"><!--Estrelas rank-->
+                                <img src="img/estrelas.png" alt="ranking avaliação" class="img-responsive estrelas-mais-vendidos">
+                                <small>80</small>
+                              </div><!--Fim estrelas rank-->
+                              <div class="coracao-vazio-2"></div><!--Coracao desejo-->
+                              <div class="preco-produto"><!--Preço produto-->
+                                <span>R$ 32,50</span>
+                              </div><!--Fim preço produto-->
+                              <div class="btn-produto-mais-vendidos">
+                                <button type="button" class="btn-veja-mais"><img src="img/car-branco.png" alt="icone-carrinho" class="car-branco-2">Adicionar ao carrinho</button>
+                              </div>
+                           </div> <!--Fim Produto 3-->
+
+                           <div class="produto-1"> <!--Produto 4-->
+                              <div class="livro-prod-4 img-responsive"></div><!--Imagem livro-->
+                              <div class="title-livros-mais-vendidos"><!--Titulo-->
+                                <h4>Arnold Schwarzenegger</h4>
+                                <small>Arnold Schwarzenegger</small>
+                              </div><!--Fim titulo-->
+                              <div class="estrelas"><!--Estrelas rank-->
+                                <img src="img/estrelas.png" alt="ranking avaliação" class="img-responsive estrelas-mais-vendidos">
+                                <small>20</small>
+                              </div><!--Fim estrelas rank-->
+                              <div class="coracao-vazio-2"></div><!--Coracao desejo-->
+                              <div class="preco-produto"><!--Preço produto-->
+                                <span>R$ 44,00</span>
+                              </div><!--Fim preço produto-->
+                              <div class="btn-produto-mais-vendidos">
+                                <button type="button" class="btn-veja-mais"><img src="img/car-branco.png" alt="icone-carrinho" class="car-branco-2">Adicionar ao carrinho</button>
+                              </div>
+                           </div> <!--Fim Produto 4-->
+
+                           <div class="produto-1"> <!--Produto 5-->
+                              <div class="livro-prod-5 img-responsive"></div><!--Imagem livro-->
+                              <div class="title-livros-mais-vendidos"><!--Titulo-->
+                                <h4>Os filhos de Húrin</h4>
+                                <small>J.R.R. Tolkien</small>
+                              </div><!--Fim titulo-->
+                              <div class="estrelas"><!--Estrelas rank-->
+                                <img src="img/estrelas.png" alt="ranking avaliação" class="img-responsive estrelas-mais-vendidos">
+                                <small>120</small>
+                              </div><!--Fim estrelas rank-->
+                              <div class="coracao-vazio-2"></div><!--Coracao desejo-->
+                              <div class="preco-produto"><!--Preço produto-->
+                                <span>R$ 15,50</span>
+                              </div><!--Fim preço produto-->
+                              <div class="btn-produto-mais-vendidos">
+                                <button type="button" class="btn-veja-mais"><img src="img/car-branco.png" alt="icone-carrinho" class="car-branco-2">Adicionar ao carrinho</button>
+                              </div>
+                           </div> <!--Fim Produto 5-->
+                          
+                        </div><!--fim lista 02-->
+                        
+                        
+                      </div><!--fim carousel-inner-->
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-mais-vendidos" role="button" data-slide="prev">
+                         <span class="setas-azul-left-2" aria-hidden="true"><img src="img/seta-azul-left.png">
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-mais-vendidos" role="button" data-slide="next">
+                          <span class="setas-azul-right-2" aria-hidden="true"><img src="img/seta-azul-right.png">
+                          <span class="sr-only">Next</span>
+                        </a>
+                    </div><!-- Fim carrousel -->
+                </div> <!-- Conteudo Mais vendidos -->
+
+                <div role="tabpanel" class="tab-pane fade" id="mais-procurados"><!--Inicio Mais procurados-->
+                      <div id="carousel-mais-procurados" class="carousel slide" data-ride="carousel">
+                      <!-- Wrapper for slides -->
+                      <div class="carousel-inner" role="listbox">
+                        <div class="item active item-align"><!-- Lista 01 -->
+
+                          <div class="produto-1"> <!--Produto 1-->
+                            <div class="livro-prod-9 img-responsive"></div><!--Imagem livro-->
+                            <div class="title-livros-mais-procurados"><!--Titulo-->
+                              <h4>O caso dos 10 negrinhos</h4>
+                              <small>Agatha Christie</small>
+                            </div><!--Fim titulo-->
+                            <div class="estrelas"><!--Estrelas rank-->
+                              <img src="img/estrelas.png" alt="ranking avaliação" class="img-responsive estrelas-mais-vendidos">
+                              <small>157</small>
+                            </div><!--Fim estrelas rank-->
+                            <div class="coracao-vazio-2"></div><!--Coracao desejo-->
+                            <div class="preco-produto"><!--Preço produto-->
+                              <span>R$ 50,90</span>
+                            </div><!--Fim preço produto-->
+                            <div class="btn-produto-mais-vendidos">
+                              <button type="button" class="btn-veja-mais"><img src="img/car-branco.png" alt="icone-carrinho" class="car-branco-2">Adicionar ao carrinho</button>
+                            </div>
+                        </div> <!--Fim Produto 1-->
+
+                           <div class="produto-1"> <!--Produto 2-->
+                              <div class="livro-prod-10 img-responsive"></div><!--Imagem livro-->
+                              <div class="title-livros-mais-vendidos"><!--Titulo-->
+                                <h4>Violetas na janela</h4>
+                                <small>Vera Lúcia Marinzeck</small>
+                              </div><!--Fim titulo-->
+                              <div class="estrelas"><!--Estrelas rank-->
+                                <img src="img/estrelas.png" alt="ranking avaliação" class="img-responsive estrelas-mais-vendidos">
+                                <small>17</small>
+                              </div><!--Fim estrelas rank-->
+                              <div class="coracao-vazio-2"></div><!--Coracao desejo-->
+                              <div class="preco-produto"><!--Preço produto-->
+                                <span>R$ 35,00</span>
+                              </div><!--Fim preço produto-->
+                              <div class="btn-produto-mais-vendidos">
+                                <button type="button" class="btn-veja-mais"><img src="img/car-branco.png" alt="icone-carrinho" class="car-branco-2">Adicionar ao carrinho</button>
+                              </div>
+                           </div> <!--Fim Produto 2-->
+
+                           <div class="produto-1"> <!--Produto 3-->
+                              <div class="livro-prod-11 img-responsive"></div><!--Imagem livro-->
+                              <div class="title-livros-mais-vendidos"><!--Titulo-->
+                                <h4>Dias de inferno na Síria</h4>
+                                <small>Klester Cavalcanti</small>
+                              </div><!--Fim titulo-->
+                              <div class="estrelas"><!--Estrelas rank-->
+                                <img src="img/estrelas.png" alt="ranking avaliação" class="img-responsive estrelas-mais-vendidos">
+                                <small>250</small>
+                              </div><!--Fim estrelas rank-->
+                              <div class="coracao-vazio-2"></div><!--Coracao desejo-->
+                              <div class="preco-produto"><!--Preço produto-->
+                                <span>R$ 60,90</span>
+                              </div><!--Fim preço produto-->
+                              <div class="btn-produto-mais-vendidos">
+                                <button type="button" class="btn-veja-mais"><img src="img/car-branco.png" alt="icone-carrinho" class="car-branco-2">Adicionar ao carrinho</button>
+                              </div>
+                           </div> <!--Fim Produto 3-->
+
+                           <div class="produto-1"> <!--Produto 4-->
+                              <div class="livro-prod-12 img-responsive"></div><!--Imagem livro-->
+                              <div class="title-livros-mais-vendidos"><!--Titulo-->
+                                <h4>O Hobbit</h4>
+                                <small>J.R.R. Tolken</small>
+                              </div><!--Fim titulo-->
+                              <div class="estrelas"><!--Estrelas rank-->
+                                <img src="img/estrelas.png" alt="ranking avaliação" class="img-responsive estrelas-mais-vendidos">
+                                <small>550</small>
+                              </div><!--Fim estrelas rank-->
+                              <div class="coracao-vazio-2"></div><!--Coracao desejo-->
+                              <div class="preco-produto"><!--Preço produto-->
+                                <span>R$ 99,90</span>
+                              </div><!--Fim preço produto-->
+                              <div class="btn-produto-mais-vendidos">
+                                <button type="button" class="btn-veja-mais"><img src="img/car-branco.png" alt="icone-carrinho" class="car-branco-2">Adicionar ao carrinho</button>
+                              </div>
+                           </div> <!--Fim Produto 4-->
+
+                           <div class="produto-1"> <!--Produto 5-->
+                              <div class="livro-prod-13 img-responsive"></div><!--Imagem livro-->
+                              <div class="title-livros-mais-vendidos"><!--Titulo-->
+                                <h4>O pequeno Principe</h4>
+                                <small>Antoine de Saint-Exupéry</small>
+                              </div><!--Fim titulo-->
+                              <div class="estrelas"><!--Estrelas rank-->
+                                <img src="img/estrelas.png" alt="ranking avaliação" class="img-responsive estrelas-mais-vendidos">
+                                <small>120</small>
+                              </div><!--Fim estrelas rank-->
+                              <div class="coracao-vazio-2"></div><!--Coracao desejo-->
+                              <div class="preco-produto"><!--Preço produto-->
+                                <span>R$ 15,50</span>
+                              </div><!--Fim preço produto-->
+                              <div class="btn-produto-mais-vendidos">
+                                <button type="button" class="btn-veja-mais"><img src="img/car-branco.png" alt="icone-carrinho" class="car-branco-2">Adicionar ao carrinho</button>
+                              </div>
+                           </div> <!--Fim Produto 5-->
+                          
+                        </div><!--fim lista 01-->
+
+                        <div class="item item-align"><!-- Lista 02 -->
+                        
+                          <div class="produto-1"> <!--Produto 1-->
+                            <div class="livro-prod-1 img-responsive"></div><!--Imagem livro-->
+                            <div class="title-livros-mais-vendidos"><!--Titulo-->
+                              <h4>Talking as fast as I can</h4>
+                              <small>Lauren Graham</small>
+                            </div><!--Fim titulo-->
+                            <div class="estrelas"><!--Estrelas rank-->
+                              <img src="img/estrelas.png" alt="ranking avaliação" class="img-responsive estrelas-mais-vendidos">
+                              <small>307</small>
+                            </div><!--Fim estrelas rank-->
+                            <div class="coracao-vazio-2"></div><!--Coracao desejo-->
+                            <div class="preco-produto"><!--Preço produto-->
+                              <span>R$ 18,90</span>
+                            </div><!--Fim preço produto-->
+                            <div class="btn-produto-mais-vendidos">
+                              <button type="button" class="btn-veja-mais"><img src="img/car-branco.png" alt="icone-carrinho" class="car-branco-2">Adicionar ao carrinho</button>
+                            </div>
+                        </div> <!--Fim Produto 1-->
+
+                           <div class="produto-1"> <!--Produto 2-->
+                              <div class="livro-prod-2 img-responsive"></div><!--Imagem livro-->
+                              <div class="title-livros-mais-vendidos"><!--Titulo-->
+                                <h4>Filosofia para corajosos</h4>
+                                <small>Luis Felipe Pondé</small>
+                              </div><!--Fim titulo-->
+                              <div class="estrelas"><!--Estrelas rank-->
+                                <img src="img/estrelas.png" alt="ranking avaliação" class="img-responsive estrelas-mais-vendidos">
+                                <small>47</small>
+                              </div><!--Fim estrelas rank-->
+                              <div class="coracao-vazio-2"></div><!--Coracao desejo-->
+                              <div class="preco-produto"><!--Preço produto-->
+                                <span>R$ 25,90</span>
+                              </div><!--Fim preço produto-->
+                              <div class="btn-produto-mais-vendidos">
+                                <button type="button" class="btn-veja-mais"><img src="img/car-branco.png" alt="icone-carrinho" class="car-branco-2">Adicionar ao carrinho</button>
+                              </div>
+                           </div> <!--Fim Produto 2-->
+
+                           <div class="produto-1"> <!--Produto 3-->
+                              <div class="livro-prod-3 img-responsive"></div><!--Imagem livro-->
+                              <div class="title-livros-mais-vendidos"><!--Titulo-->
+                                <h4>O capital no século XXI</h4>
+                                <small>Thomas Piketty</small>
+                              </div><!--Fim titulo-->
+                              <div class="estrelas"><!--Estrelas rank-->
+                                <img src="img/estrelas.png" alt="ranking avaliação" class="img-responsive estrelas-mais-vendidos">
+                                <small>80</small>
+                              </div><!--Fim estrelas rank-->
+                              <div class="coracao-vazio-2"></div><!--Coracao desejo-->
+                              <div class="preco-produto"><!--Preço produto-->
+                                <span>R$ 32,50</span>
+                              </div><!--Fim preço produto-->
+                              <div class="btn-produto-mais-vendidos">
+                                <button type="button" class="btn-veja-mais"><img src="img/car-branco.png" alt="icone-carrinho" class="car-branco-2">Adicionar ao carrinho</button>
+                              </div>
+                           </div> <!--Fim Produto 3-->
+
+                           <div class="produto-1"> <!--Produto 4-->
+                              <div class="livro-prod-4 img-responsive"></div><!--Imagem livro-->
+                              <div class="title-livros-mais-vendidos"><!--Titulo-->
+                                <h4>Arnold Schwarzenegger</h4>
+                                <small>Arnold Schwarzenegger</small>
+                              </div><!--Fim titulo-->
+                              <div class="estrelas"><!--Estrelas rank-->
+                                <img src="img/estrelas.png" alt="ranking avaliação" class="img-responsive estrelas-mais-vendidos">
+                                <small>20</small>
+                              </div><!--Fim estrelas rank-->
+                              <div class="coracao-vazio-2"></div><!--Coracao desejo-->
+                              <div class="preco-produto"><!--Preço produto-->
+                                <span>R$ 44,00</span>
+                              </div><!--Fim preço produto-->
+                              <div class="btn-produto-mais-vendidos">
+                                <button type="button" class="btn-veja-mais"><img src="img/car-branco.png" alt="icone-carrinho" class="car-branco-2">Adicionar ao carrinho</button>
+                              </div>
+                           </div> <!--Fim Produto 4-->
+
+                           <div class="produto-1"> <!--Produto 5-->
+                              <div class="livro-prod-5 img-responsive"></div><!--Imagem livro-->
+                              <div class="title-livros-mais-vendidos"><!--Titulo-->
+                                <h4>Os filhos de Húrin</h4>
+                                <small>J.R.R. Tolkien</small>
+                              </div><!--Fim titulo-->
+                              <div class="estrelas"><!--Estrelas rank-->
+                                <img src="img/estrelas.png" alt="ranking avaliação" class="img-responsive estrelas-mais-vendidos">
+                                <small>120</small>
+                              </div><!--Fim estrelas rank-->
+                              <div class="coracao-vazio-2"></div><!--Coracao desejo-->
+                              <div class="preco-produto"><!--Preço produto-->
+                                <span>R$ 15,50</span>
+                              </div><!--Fim preço produto-->
+                              <div class="btn-produto-mais-vendidos">
+                                <button type="button" class="btn-veja-mais"><img src="img/car-branco.png" alt="icone-carrinho" class="car-branco-2">Adicionar ao carrinho</button>
+                              </div>
+                           </div> <!--Fim Produto 5-->
+                          
+                        </div><!--fim lista 02-->
+                      </div><!--fim carousel-inner-->
+
+                        <!-- Controls -->
+                        <a class="left carousel-control" href="#carousel-mais-procurados" role="button" data-slide="prev">
+                         <span class="setas-azul-left-3" aria-hidden="true"><img src="img/seta-azul-left.png">
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#carousel-mais-procurados" role="button" data-slide="next">
+                          <span class="setas-azul-right-3" aria-hidden="true"><img src="img/seta-azul-right.png">
+                          <span class="sr-only">Next</span>
+                        </a>
+                    </div><!-- Fim carrousel -->
+                </div> <!-- Fim Conteudo mais procurados -->
+              </div>
+          </div><!-- Fim Container-->
+        </section> <!-- Fim Mais vendidos e mais procurados-->
+
+        <section id="leia-gratis"> <!-- Leia de graça-->
+          <div class="back-leia">
+            <div class="container">
+              <div class="col-md-4 texto-gratis"><!-- Texto-gratis-->
+                <div class="grupo-chamada">
+                  <span class="quer-ler">Quer ler</span>
+                  <span class="de-graca">de Graça?</span>
+                  <span class="texto-apoio">Mais de um milhão de eBooks para<br> você ler onde e quando quiser</span>
+                  <div class="btn-graca"><button type="button" class="btn-experimente">Experimente</button></div>
+                </div>
+              </div><!-- Fim Texto-gratis-->
+              <div class="col-md-8 imagens-bloco-ler-gratis">
+                <div class="img-tablets"></div>
+              </div>
+            </div>
+          </div>
+        </section> <!-- Fim leia de graça-->
+
+        <section id="links">
+          <div class="container">
+            <div class="grupo-links clearfix">
+              <div class="col-md-4 lista-links"><!-- Lista 1-->
+                <h4>Conheça-nos</h4>
+                <ul>
+                  <li><a href="#">Informações corporativas</a></li>
+                  <li><a href="#">Carreiras</a></li>
+                  <li><a href="#">Comunicados à imprensa</a></li>
+                </ul>
+              </div><!-- Fim Lista 1-->
+
+              <div class="col-md-4 lista-links"><!-- Lista 2-->
+                <h4>Ganhe dinheiro concosco</h4>
+                <ul>
+                  <li><a href="#">Publique seus livros</a></li>
+                  <li><a href="#">Seja um associado</a></li>
+                </ul>
+              </div><!-- Fim Lista 2-->
+
+              <div class="col-md-4 lista-links"><!-- Lista 2-->
+                <h4>Deixe-nos ajuda-ló</h4>
+                <ul>
+                  <li><a href="#">Sua conta</a></li>
+                  <li><a href="#">Frete e prazo de entrega</a></li>
+                  <li><a href="#">Devoluções e reembolso</a></li>
+                  <li><a href="#">Gerencie seus conteúdos e dispositivos</a></li>
+                  <li><a href="#">Atendimento</a></li>
+                </ul>
+              </div><!-- Fim Lista 2-->
+            </div>
+          </div>
+        </section><!-- Fim links-->
+
+        <section id="rodape"><!-- Rodape-->
+          <footer>
+            <div class="container">
+              <div class="row logo-amazon"><img src="img/amazon-rodape.png" alt="Logo Amazon"></div><!-- Logo amazon-->
+              <div class="row menu-rodape"><!-- Menu rodape-->
+                <ul>
+                  <li><a href="#">Austrália</a></li>
+                  <li><a href="#">Alemanha</a></li>
+                  <li><a href="#">China</a></li>
+                  <li><a href="#">Espanha</a></li>
+                  <li><a href="#">Estados Unidos</a></li>
+                  <li><a href="#">França</a></li>
+                  <li><a href="#">Holanda</a></li>
+                  <li><a href="#">Índia</a></li>
+                  <li><a href="#">Japaão</a></li>
+                  <li><a href="#">México</a></li>
+                  <li><a href="#">Reuno Unido</a></li>
+                </ul>
+              </div><!-- Fim Rodape-->
+              <div class="termos">
+                <ul>
+                  <li><a href="#">Condições de uso</a></li>
+                  <li><a href="#">Notificação de privacidade</a></li>
+                  <li><a href="#">Anúncios baseados em interesse</a></li>
+                </ul>
+              </div>
+              <div class="infos-finais">
+                <p>Amazon Serviços de Varejo do Brasil Ltda. | CNPJ 15.436.940/0001-03</p>
+                <p>Av. Juscelino Kubitschek, 2041, Torre E, 18° andar - São Paulo | ajuda-amazon@amazon.com.br</p>
+                <p>Formas de pagamento aceitas: cartões de crédito Visa, MasterCard, Elo e Diners Club.</p>
+              </div>
+            </div><!-- Fim container-->
+          </footer>
+        </section><!-- Fim section Rodape-->
+
+
+    
+   
+
+  
+
+
+    
+
+
+
+
+
+
+
+
+
+
+    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+     <script src="js/scrips.js"></script>
+   
+
+ 
+  </body>
+</html>

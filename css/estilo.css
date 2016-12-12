@@ -1,0 +1,903 @@
+@font-face{
+	font-family: Lato-bold;
+	src: url("../fonts/Lato-Bold.ttf");
+}
+@font-face{
+	font-family: Lato-Light;
+	src: url("../fonts/Lato-Light.ttf");
+}
+@font-face{
+	font-family: Lato-italic;
+	src: url("../fonts/Lato-Italic.ttf");
+}
+@font-face{
+	font-family: Lato-Regular;
+	src: url("../fonts/Lato-Regular.ttf");
+}
+@font-face{
+	font-family: Lato-Black;
+	src: url("../fonts/Lato-Black.ttf");
+}
+body{
+	padding: 0;
+	margin: 0;
+	border:0;
+	height: 100%;
+	box-sizing: border-box;
+}
+button{
+	outline: 0;
+}
+
+
+
+
+
+/* ========================= layout ======================== */
+
+
+/* -- Barra de navegação -- */
+
+header{
+	padding-top: 1em;
+}
+header .lista-topo{
+	list-style: none;
+	font-family: 'Lato-Light', sans-serif;
+	font-size: 14px;
+
+}
+header .lista-topo li{
+	display: inline-block;
+	padding: 5px 26px;
+}
+header .lista-topo li a{
+	display:block;
+	color: #666;
+	letter-spacing: -1px;
+}
+header .lista-topo li a:hover{
+	text-decoration: none;
+	color: #232f3e;
+	transition: .6s;
+}
+
+header .logo-amazon{
+	text-align: center;
+	margin-top: 2em;
+}
+
+
+/* -- Carrinho e lista de desejos -- */
+header .carrinho-desejo{
+	margin-top: 2em;
+}
+.carrinho-desejo .hover-list:hover{
+	background: none;
+}
+.nav .open>a, .nav .open>a:focus, .nav .open>a:hover{
+	background-color: transparent;
+}
+.navbar-nav>li>a{
+	padding:0;
+	color: #666;
+	font-family: 'Lato-Light', sans-serif;
+	font-size: 14px;
+}
+.navbar-nav>li>a:hover{
+	background-color: transparent;
+}
+
+.lista-desejo .icone-coracao{
+    width: 128px;
+    text-align: center;
+    position: relative;
+}
+.lista-carrinho .icone-carrinho{
+	width: 88px;
+    text-align: center;
+    position: relative;
+}
+.lista-carrinho, .lista-carrinho{
+	text-align: center;
+}
+.hover-list .caret{
+	color: #232f3e;
+}
+.icone-coracao .bola-desejo{
+    background: #ffa115;
+    width: 25px;
+    height: 25px;
+    padding: .2em;
+    border-radius: 70px;
+    position: absolute;
+    right: 31px;
+    top: -12px;
+}
+.icone-carrinho .bola-carrinho{
+    background: #ffa115;
+    width: 25px;
+    height: 25px;
+    padding: .2em;
+    border-radius: 70px;
+    position: absolute;
+    right: 11px;
+    top: -12px;
+}
+
+
+/* -- Lista menu Principal -- */
+.lista-menu-principal{
+    text-align: center;
+    margin-top: 2em;
+}
+.menu-principal ul{
+	list-style: none;
+}
+.menu-principal ul li{
+	display: inline-block;
+    padding: 5px 16px;
+}
+.menu-principal ul li a{
+	color: #666;
+	font-family: 'Lato-Light',sans-serif;
+	font-size: 16px;
+}
+.dropdown-menu .subtitle{
+	display: block;
+	font-size: 11px;
+	font-family: 'Lato-Light', sans-serif;
+}
+
+
+/*--Setas Carrosel--*/
+.setas{
+	position: absolute;
+    top: 131px;
+}
+
+/*--Input Busca--*/
+.form-group .form-busca{
+	padding: 26px 12px;
+	padding-left: 12em;
+	margin-bottom: 35px;
+	margin-top: 9px;
+}
+.form-relativo, .busca{
+	position: relative;
+}
+.img-busca{
+	position: absolute;
+	top: 15px;
+	left: 130px;
+}
+.btn-select{
+    position: absolute;
+    top: 0;
+    height: 53px;
+    width: auto;
+    background: #efefef;
+    border-right: 1px solid #efefef
+}
+.btn-select select{
+	position: absolute;
+    display: block;
+    top: 1px;
+    left: 1px;
+    height: 52px;
+    width: auto;
+    font-family: 'Lato-Light', sans-serif;
+    cursor: pointer;
+    opacity: 1;
+    visibility: visible;
+    line-height: 35px;
+    outline: 0px;
+    margin: 0px;
+    padding-left: 9px;
+    border: 1px solid #efefef;
+    background-color: #efefef;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    
+}
+
+.btn-submit{
+	position: absolute;
+    right: 0;
+    top: 0;
+}
+.btn-submit button{
+	height: 53px;
+    width: 123px;
+    color: white;
+    background-color: #ffa115;
+    font-family: 'Lato-Bold', sans-serif;
+    border:0;
+    border-radius: 3px;
+    font-size: 16px;
+}
+.btn-submit button:hover{
+	background-color: #fdbb59;
+	transition: .6s;
+}
+
+/* -- Oferta do dia -- */
+
+#aba-oferta{
+	background-color: #f3f3f3;
+	padding: 6em;
+}
+
+.grupo-ofertas{
+	display: table;
+	margin: 0 auto;
+	margin-top: 2em;
+}
+.title-oferta{
+	text-align: center;
+}
+.title-oferta h3{
+	font-family: 'Lato-Bold', sans-serif;
+	color: #232f3e;
+	text-transform: uppercase;
+	font-size: 20px;
+	display: inline-block;
+    padding: 0 0 16px 0px;
+    border-bottom: 3px solid #232f3e;
+	text-align: center;
+
+}
+.oferta-1{
+	background-color: white;
+	-webkit-box-shadow: 3px 10px 36px -2px rgba(0,0,0,0.17);
+	-moz-box-shadow: 3px 10px 36px -2px rgba(0,0,0,0.17);
+	box-shadow: 3px 10px 36px -2px rgba(0,0,0,0.17);
+	height: auto;
+	width: auto;
+	padding: 1em;
+	position: relative;
+	margin: 2em;
+}
+.oferta-1 .tag-desconto{
+	background: url('../img/aba-oferta.png') no-repeat;
+	width: 80px;
+	height: 74px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.tag-desconto .numero-tag{
+	position: relative;
+	z-index: 1;
+	font-family: 'Lato-Regular',sans-serif;
+	color: white;
+	font-size: 16px;
+	right: -17	px;
+    top: 10px;
+}
+.oferta-1 .imagem-livro-1{
+	background: url('../img/livro-1.jpg')no-repeat;
+	width: 120px;
+	height: 180px;
+	display: block;
+	margin: 0 auto;
+}
+.oferta-1 .imagem-livro-2{
+	background: url('../img/livro-2.jpg')no-repeat;
+	width: 120px;
+	height: 180px;
+	display: block;
+	margin: 0 auto;
+}
+.oferta-1 .imagem-livro-3{
+	background: url('../img/livro-3.jpg')no-repeat;
+	width: 120px;
+	height: 180px;
+	display: block;
+	margin: 0 auto;
+}
+.oferta-1 .title-livro{
+	max-width: 230px;
+	display: inline-block;
+	padding-right: 3em;
+}
+.oferta-1 .title-livro h4{
+	margin-bottom: 1px;
+	font-size: 16px;
+	font-family: 'Lato-Bold',sans-serif;
+	color: #666;
+	margin-top: 0;
+	letter-spacing: -1px;
+}
+.oferta-1 .coracao-vazio{
+	display: inline-block;
+	background: url('../img/coracao-vazio.png')no-repeat;
+	width: 29px;
+	height: 24px;
+	vertical-align: top;
+	cursor: pointer;
+}
+.oferta-1 .coracao-vazio:hover{
+	background: url('../img/coracao.png')no-repeat;
+	width: 29px;
+	height: 24px;
+	vertical-align: top;
+	cursor: pointer;
+	transition: .3s;
+}
+.oferta-1 .coracao-cheio{
+	display: inline-block;
+	background: url('../img/coracao.png')no-repeat;
+	width: 29px;
+	height: 24px;
+	vertical-align: top;
+	cursor: pointer;
+	opacity: 0;
+}
+
+.oferta-1 .align-texto-icone{
+	margin-top: 1em;
+}
+
+.oferta-1 .precos-livros{
+	margin-top: 1em;
+}
+.oferta-1 .preco .preco-de{
+	font-family: 'Lato-Regular', sans-serif;
+	font-size: 16px;
+	text-decoration: line-through;
+	color: #666;
+	display: block;
+}
+.oferta-1 .preco .preco-por{
+	font-family: 'Lato-Bold', sans-serif;
+	font-size: 25px;
+	color: #666;
+	display: block;
+}
+.oferta-1 .estrelas-avaliacao{
+	text-align: right;
+	font-size: 16px;
+	font-family: 'Lato-Light',sans-serif;
+	color: #666;
+}
+.oferta-1 .barra-progress{
+	margin: 1em;
+	border-radius: 38px;
+	box-shadow: none;
+	height: 5px;
+	background-color: #dfdfdf;
+}
+.oferta-1 .barra-progress .progress-line{
+	background-color: #232f3e;
+}
+.oferta-1 .legenda-porcento, .timer-porcento{
+	font-family: 'Lato-Regular',sans-serif;
+	color: #666;
+	font-size: 16px;
+}
+.oferta-1 .btn-add-carrinho{
+	text-align: center;
+    margin-top: 2em;
+    padding: 1em;
+}
+.oferta-1 .btn-add-carrinho button{
+	color: white;
+	background: #ffa115;
+	outline: 0;
+	padding: 1em;
+	border:0;
+	width: 100%;
+	font-size: 18px;
+	font-family: 'Lato-Bold',sans-serif;
+	border-radius: 5px;
+}
+.oferta-1 .btn-add-carrinho button:hover{
+	background: #f29100;
+	transition: .6s;
+}
+.oferta-1 .btn-add-carrinho .car-branco{
+	padding-right: .5em;
+}
+.btn-todas-ofertas{
+	text-align: center;
+}
+.carousel-control.left, .carousel-control.right{
+	background: transparent;
+}
+.setas-azul-left{
+	position: absolute;
+    left: -20px;
+    top: 40%;
+}
+.setas-azul-right{
+	position: absolute;
+    right: -20px;
+    top: 40%;
+}
+/* -- Botoes ---------------------------------------------------------------- */
+.botoes-login .btn-cadastro{
+	display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    border: 1px solid #232f3e;
+    border-radius: 4px;
+    background: transparent;
+    font-family: 'Lato-Bold', sans-serif;
+}
+.botoes-login .btn-login{
+	display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    color: #fff;
+      border: 1px solid #232f3e;
+    border-radius: 4px;
+    background: #232f3e;;
+    font-family: 'Lato-Bold', sans-serif;
+}
+.botoes-login .btn-login:hover{
+	background: #2c3a4b;
+}
+
+.btn-todas-ofertas .btn-ver-todas{
+	display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    user-select: none;
+    background-image: none;
+    color: #fff;
+      border: 1px solid #232f3e;
+    border-radius: 4px;
+    background: #232f3e;;
+    font-family: 'Lato-Bold', sans-serif;
+}
+.btn-todas-ofertas .btn-ver-todas:hover{
+	background: #2c3a4b;
+}
+
+
+#owl-exemplo-1 .item{
+  margin: 3px;
+}
+#owl-exemplo-1 .item img{
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+/* ========================= Mais vendidos e procurados ======================== */
+
+#vendido-procurados{
+	    margin-top: 5em;
+        padding-bottom: 4em;
+}
+
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+	color: #232f3e;
+	text-transform: uppercase;
+	font-family: 'Lato-Bold', sans-serif;
+	font-size: 20px;
+	border: 0;
+	background: transparent;
+}
+.nav-tabs{
+	border-bottom: none;
+}
+.nav-tabs>li>a{
+	color: #c3c3c3;
+	text-transform: uppercase;
+	font-family: 'Lato-Bold', sans-serif;
+	font-size: 20px;
+	border: 0;
+}
+.nav>li>a:hover{
+	background-color: transparent;
+}
+.divisoria{
+	width: 2px;
+	height: 55px;
+	transform: rotate(15deg);
+	background-color:  #c3c3c3;
+	margin-right: 4px;
+	margin-left: 4px;
+}
+
+.form-categorias form label{
+	color: #232f3e;
+	font-family: 'Lato-Bold',sans-serif;
+}
+.form-categorias form select#select-categoria{
+	height: 50px;
+	border-radius: 5px;
+	border-color:#d8d8d8;
+	cursor: pointer;
+	color: #d8d8d8;
+	outline: 0;
+}
+.produto-1{
+    display: inline-block;
+    background-color: white;
+    height: auto;
+    width: auto;
+    padding: 1em;
+    position: relative;
+    margin-right: 3.2em;
+}
+.produto-1 .livro-prod-1{
+	background: url('../img/livro-4.jpg')no-repeat;
+	width: 120px;
+	height: 180px;
+	display: block;
+	margin-bottom: 1em;
+}
+.tab-content{
+	margin-top: 8em;
+}
+.produto-1 .title-livros-mais-vendidos{
+	margin-bottom: .2em;
+}
+.produto-1 .title-livros-mais-vendidos h4{
+	margin-bottom: 1px;
+	font-size: 16px;
+	font-family: 'Lato-Bold',sans-serif;
+	color: #666;
+	margin-top: 0;
+	letter-spacing: -1px;
+}
+.produto-1 .estrelas .estrelas-mais-vendidos{
+	width: 90px;
+}
+.produto-1 .estrelas{
+	display: inline-block;
+    margin-right: 1.2em;
+    text-align: left;
+}
+.produto-1 .coracao-vazio-2{
+	display: inline-block;
+	background: url('../img/coracao-vazio-2.png')no-repeat;
+	width: 20px;
+	height: 17px;
+	vertical-align: top;
+	cursor: pointer;
+	margin-bottom: 2em;
+}
+.produto-1 .coracao-vazio-2:hover{
+	background: url('../img/coracao-2.png')no-repeat;
+	width: 20px;
+	height: 17px;
+	vertical-align: top;
+	cursor: pointer;
+	transition: .3s;
+}
+.produto-1 .preco-produto{
+	margin-bottom: 1em;
+	text-align: left;
+}
+.produto-1 .preco-produto span{
+    font-family: 'Lato-Bold', sans-serif;
+    font-size: 25px;
+    color: #666;
+    display: block;
+}
+
+.produto-1 .btn-produto-mais-vendidos button{
+    color: white;
+    background: #ffa115;
+    outline: 0;
+    padding: 1em;
+    border: 0;
+    width: 100%;
+    font-size: 9px;
+    font-family: 'Lato-Bold',sans-serif;
+    border-radius: 5px;
+}
+.produto-1 .btn-produto-mais-vendidos button:hover{
+    background: #f29100;
+    transition: .6s;
+}
+.produto-1 .btn-produto-mais-vendidos .car-branco-2{
+	padding-right: .5em;
+	width: 23px;
+}
+.produto-1 .livro-prod-2{
+	background: url('../img/livro-5.jpg')no-repeat;
+	width: 120px;
+	height: 180px;
+	display: block;
+	margin-bottom: 1em;
+}
+.produto-1 .livro-prod-3{
+	background: url('../img/livro-6.jpg')no-repeat;
+	width: 120px;
+	height: 180px;
+	display: block;
+	margin-bottom: 1em;
+}
+.produto-1 .livro-prod-4{
+	background: url('../img/livro-7.jpg')no-repeat;
+	width: 120px;
+	height: 180px;
+	display: block;
+	margin-bottom: 1em;
+}
+.produto-1 .livro-prod-5{
+	background: url('../img/livro-8.jpg')no-repeat;
+	width: 120px;
+	height: 180px;
+	display: block;
+	margin-bottom: 1em;
+}
+.produto-1 .livro-prod-9{
+	background: url('../img/livro-9.jpg')no-repeat;
+	width: 120px;
+	height: 180px;
+	display: block;
+	margin-bottom: 1em;
+}
+.produto-1 .livro-prod-10{
+	background: url('../img/livro-10.jpg')no-repeat;
+	width: 120px;
+	height: 180px;
+	display: block;
+	margin-bottom: 1em;
+}
+.produto-1 .livro-prod-11{
+	background: url('../img/livro-11.jpg')no-repeat;
+	width: 120px;
+	height: 180px;
+	display: block;
+	margin-bottom: 1em;
+}
+.produto-1 .livro-prod-12{
+	background: url('../img/livro-12.jpg')no-repeat;
+	width: 120px;
+	height: 180px;
+	display: block;
+	margin-bottom: 1em;
+}
+.produto-1 .livro-prod-13{
+	background: url('../img/livro-13.jpg')no-repeat;
+	width: 120px;
+	height: 180px;
+	display: block;
+	margin-bottom: 1em;
+}
+#carousel-mais-vendidos .setas-azul-left-2{
+	position: absolute;
+    left: -20px;
+    top: 40%;
+}
+#carousel-mais-vendidos .setas-azul-right-2{
+	position: absolute;
+    right: 30px;
+    top: 40%;
+}
+.carousel-inner {
+	text-align: center;
+}
+.produto-1 .title-livros-mais-procurados{
+	margin-bottom: .2em;
+	text-align: left;
+}
+.produto-1 .title-livros-mais-vendidos{
+	text-align: left;
+}
+.produto-1 .title-livros-mais-procurados h4{
+	margin-bottom: 1px;
+	font-size: 16px;
+	font-family: 'Lato-Bold',sans-serif;
+	color: #666;
+	margin-top: 0;
+	letter-spacing: -1px;
+}
+.setas-azul-left-3{
+    position: absolute;
+    left: -20px;
+    top: 40%;
+}
+.setas-azul-right-3{
+	position: absolute;
+    left: 113px;
+    top: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================= Leia de graça ======================== */
+#leia-gratis .back-leia{
+	background: url('../img/back-leia.png') no-repeat;
+	width: 100%;
+	height: 517px;
+	overflow-x: hidden
+}
+.texto-gratis .grupo-chamada{
+	position: relative;
+	margin-top: 11em;
+}
+.texto-gratis .quer-ler{
+	font-family: 'Lato-Light',sans-serif;
+	font-size: 50px;
+	display: block;
+	color: #c3c3c3;
+	position: absolute;
+	top: -50px;
+}
+.texto-gratis .texto-apoio{
+	font-family: 'Lato-Light',sans-serif;
+	display: block;
+	font-size: 16px;
+	color: #c3c3c3;
+}
+.texto-gratis .de-graca{
+	font-family: 'Lato-Bold',sans-serif;
+	font-size: 76px;
+	color: #c3c3c3;
+	letter-spacing: -1px;
+	display: block;
+}
+.texto-gratis .btn-graca{
+	margin-top: 2em;
+}
+.texto-gratis .btn-graca button{
+	color: white;
+	font-family: 'Lato-Bold',sans-serif;
+	font-size: 16px;
+	background-color: #ffa115;
+	border-radius: 5px;
+	padding: 1em 2em;
+	border: 0;
+}
+.texto-gratis .btn-graca button:hover{
+    background: #f29100;
+    transition: .6s;
+}
+.imagens-bloco-ler-gratis .img-tablets{
+	background: url('../img/tables-leia.png')no-repeat;
+	width: 1074px;
+	height: 517px;
+	overflow:hidden;
+}
+#links{
+	background: #e2e2e2;
+	padding: 2em;
+}
+
+/* ========================= Links ======================== */
+.lista-links h4{
+	color: #444444;
+	font-family: 'Lato-Bold',sans-serif;
+}
+.lista-links ul{ 
+	list-style: none;
+	padding: 0;
+
+}
+.lista-links ul li{
+	text-align: left;
+	display: block;
+}
+.lista-links a{
+	font-family: 'Lato-Regular',sans-serif;
+	color: #444;
+	padding-bottom: 1em;
+	display: block;
+}
+.grupo-links{
+	width: 800px;
+    margin: 0 auto;
+}
+/* ========================= Rodape ======================== */
+#rodape footer{
+	background-color: #1a1e23;
+	padding: 3em;
+}
+#rodape .logo-amazon{
+	text-align: center;
+	margin-bottom: 3em;
+}
+#rodape .menu-rodape ul{
+	list-style: none;
+	text-align: center;
+}
+#rodape .menu-rodape ul li{
+	display:inline-block;
+	margin-right: 1em;
+	border-right: 1px solid white;
+}
+#rodape .menu-rodape ul li:last-child{
+	border-right: none;
+}
+#rodape .menu-rodape ul li a{
+	display: block;
+	padding-right: 10px;
+	font-family: 'Lato-Regular', sans-serif;
+	color: white;
+}
+#rodape .termos{
+	text-align: center;
+}
+#rodape .termos li{
+	display: inline-block;
+}
+#rodape .termos ul{
+	list-style: none;
+}
+#rodape .termos ul li a{
+	display: block;
+	padding-right: 10px;
+	font-family: 'Lato-Regular', sans-serif;
+	color: white;
+}
+footer .termos ul li:last-child{
+	border-right: none;
+}
+footer .termos ul li{
+	margin-right: 1em;
+	border-right: 1px solid white;
+}
+footer .infos-finais{
+	text-align: center;
+	margin-top: 2em;
+}
+footer .infos-finais p{
+	color: #a9a9a9;
+	font-family: 'Lato-Regular',sans-serif;
+}
+
+/* ========================= Tipografia ======================== */
+
+
+
+
+
+
+
+/* ========================= Media querys======================== */
+
+@media (min-width: 300px) and (max-width: 500px){
+	.setas{
+		display: none;
+	}
+}
